@@ -156,13 +156,16 @@ footer {
 header{
   background-color: #003366;
 }
-.copyright{
+.copyright, .designed-by{
   font-size: 8pt;
   color: #ffffff;
   float: right;
   margin-right: 5px;
   position: absolute;
   right: 0;
+}
+.designed-by {
+  bottom: 12px;
 }
 @media (min-width: 768px) {
   .header-container, .footer-container, .custom-container {
