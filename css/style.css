@@ -1,5 +1,5 @@
 body, html{
-  font-family: 'Quicksand', sans-serif;  
+  font-family: 'Quicksand', sans-serif;
   background-image: url(../images/bg.png);
   background-position: fixed;
   -webkit-background-size: cover;
@@ -7,15 +7,15 @@ body, html{
   -o-background-size: cover;
   background-size: cover;
 }
-hr { 
-	display: block; 
+hr {
+	display: block;
 	height: 1px;
-  border: 0; 
-  border-top: 1px solid #ccc; 
+  border: 0;
+  border-top: 1px solid #ccc;
   margin: -1px;
   padding: 0;
 	margin-right: -15px;
-  margin-left: -15px; 
+  margin-left: -15px;
 }
 table{
   width: 100%;
@@ -66,7 +66,7 @@ table{
   color: #ffffff;
 }
 .maat-prijs-border{
-  border-right: 1px solid #ffffff; 
+  border-right: 1px solid #ffffff;
 }
 .lif-white-border{
   border-bottom: 1px solid #ffffff;
@@ -86,7 +86,7 @@ table{
   margin-top: 15px;
 }
 .container{
-  background-color: transparent; 
+  background-color: transparent;
   overflow: hidden;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -246,7 +246,7 @@ header{
   padding-top: 10px;
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 20px; 
+  margin-top: 20px;
   padding-bottom: 10px;
 }
 @media (max-width: 400px) {
@@ -377,14 +377,14 @@ color: #fff;
 background-color: #06617D;
 }
 .glif-title{
-  background-color: #003366; 
-  padding-top: 20px; 
+  background-color: #003366;
+  padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
   width: 30%;
 }
 .glif-info{
-  padding-top: 20px; 
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 #lif-margin{
@@ -406,4 +406,19 @@ background-color: #06617D;
 }
 #welkom{
   margin-bottom: 15px;
+}
+.hidden {
+  display: none;
+}
+.bold {
+  font-weight: 600;
+}
+.center {
+  text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #06617D;
 }
