@@ -7,6 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/remodal.css">
+		<link rel="stylesheet" href="css/remodal-default-theme.css">
 		<title>Turnkring Sint Willibrordus Antwerpen</title>
 	</head>
 	<body>
@@ -140,6 +142,30 @@
 				  </a>
 				</div>
 			</div>
+			<div class="remodal" data-remodal-id="modal" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+      <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+      <div>
+        <h2 id="modalTitle">
+					TURNKRING SWA
+					<br>
+					WAFEL & VLAAIENSLAG OP ZATERDAG 21/10/2015
+				</h2>
+        <p id="modalDesc">
+          Een ambachtelijk wafeltje of een lekker stukje Limburgse vlaai?<br>
+					Dat smaakt altijd en u steunt bovendien onze turners! <br>
+					<br>
+					Klik onderaan op "bestellen" om uw bestelling door te geven of voor meer informatie.<br>
+					Bestellen kan nog tot vrijdag 13/11! <br><br>
+					Smakelijk!
+
+        </p>
+      </div>
+      <br>
+      <button data-remodal-action="cancel" class="remodal-cancel">Niet nu</button>
+			<a href="wafels-en-vlaaien.html">
+      	<button  class="remodal-confirm">Bestellen</button>
+			</a>
+    </div>
 			<div class="container">
 				<div class="title" id="welkom">
 					Welkom bij turnkring SWA!
@@ -178,5 +204,10 @@
 		</footer>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="js/remodal.js"></script>
+		<script>
+			var inst = $('[data-remodal-id=modal]').remodal();
+	    inst.open();
+		</script>
 	</body>
 </html>
